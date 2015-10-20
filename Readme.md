@@ -1,3 +1,3 @@
 # Police shootings
 
-This repository is a challenge for the following [course](http://faculty.washington.edu/mikefree/info343/) at the University of Washington.  The instructions are described [here](http://faculty.washington.edu/mikefree/info343/#/challenges/map-challenge).
+As a note, for some reason if I go to my student server using "https"" instead of "http" it does not work. So [here](http://students.washington.edu/biega/info343/police-shooting/) is a link to the correct one.
