@@ -1,4 +1,42 @@
-/* You'll probably want to add some styles here */
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
+
+/*
+Map stuff
+*/
 #container {
 	height:800px;
+	margin-bottom: 30px;
+}
+
+.leaflet-control-layers-selector {
+
+}
+
+/*
+General Tags
+*/
+h1, h2, h3 {
+	text-align: center;
+}
+
+td:first-child {
+	font-weight: bold;
+}
+
+/*
+Custom ids
+*/
+#intro, #count {
+	text-align: center;
+	font-size: 20px;
+}
+
+#hit {
+	font-weight: bold;
+	color: gray;
+}
+
+#killed, #num-points {
+	font-weight: bold;
+	color: red;
 }

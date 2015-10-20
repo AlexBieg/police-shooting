@@ -19,18 +19,48 @@
     <!-- Custom files -->
     <script type="text/javascript" src="js/map.js"></script>
     <link rel="stylesheet" href="css/main.css"/>
-   
+
+    <!-- Shortcut Icon -->
+    <link rel="shortcut icon" href="img/gun.png">
   </head>
   <body>
     <!-- You may want to put your title and additional informaiton here -->
+    <h1>Police Shootings</h1>
+    <h3>The United States</h3>
+    <div>
+      <table class="table table-striped">
+        <tr>
+          <th></th>
+          <th>Armed</th>
+          <th>Unarmed</th>
+        </tr>
+        <tr id="male-row">
+          <td>Male</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr id="female-row">
+          <td>Female</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
     <div class="container">
       <!-- This is the div that your map will go in.  You'll need to reference its id -->
+      <p id="intro">
+        This map shows crowdsourced data from deadspin. The color of the circle indicates if the victim was 
+        <span id="hit">hit</span> or <span id="killed">killed</span>. Use the buttons at the top right of the map to 
+        show incidents according to age.
+      </p>
+      <p id="count">
+        Current number of points shown: <span id="num-points">0</span>
+      </p>
       <div id="container"></div>
     </div>
     <script>
-      
       // This is where you should execute your drawMap function
-      
+      drawMap();
     </script>
   </body>
 </html>
